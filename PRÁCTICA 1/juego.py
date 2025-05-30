@@ -1,3 +1,6 @@
+# Romina Florencia Ramos   
+# DNI:36934796
+
 import random
 
 def juego_adivina_numero():
