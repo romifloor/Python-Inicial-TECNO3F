@@ -13,3 +13,7 @@ while True:
         print("Programa finalizado.")
         break
 
+    # Conteo de caracteres
+    texto = input("Ingrese una palabra o frase: ")
+    cantidad_caracteres = len(texto)
+    print(f"\nLa palabra/frase tiene {cantidad_caracteres} caracteres.")
