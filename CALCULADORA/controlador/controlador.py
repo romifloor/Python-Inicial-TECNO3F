@@ -34,8 +34,6 @@ def resultado():
     
     try:
         if not display_text:
-            display_var.set("Sergio Desaprobado")
-            entry.config(fg="#FFFF00", bg="#000000")
             return
             
         total = str(eval(display_text))
@@ -46,7 +44,7 @@ def resultado():
         
     except:
         display_text = ""
-        display_var.set("**ERROR**")
+        display_var.set("ERROR")
         entry.config(fg="#FF0000", bg="#FFFF00")
 
 #eventos de teclado

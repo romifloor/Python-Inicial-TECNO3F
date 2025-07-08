@@ -8,9 +8,9 @@ def crear_ventana_principal():
     ventana.geometry("300x370")
     ventana.resizable(False, False)
     return ventana
-
+# img/casio.png
 def crear_logo():
-    logo_casio = PhotoImage(file="img/casio.png").subsample(5, 5)
+    logo_casio = PhotoImage(file="CALCULADORA\img\casio.png").subsample(5, 5)
     return logo_casio
 
 def configurar_botones(ventana, FUENTE, BTN_FONDO, BTN_FUENTE):
