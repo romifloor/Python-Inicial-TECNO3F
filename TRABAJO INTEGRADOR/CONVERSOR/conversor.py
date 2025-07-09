@@ -1,3 +1,6 @@
+# Romina Florencia Ramos   
+# DNI:36934796
+
 from tkinter import Tk, Entry, Button, Label, StringVar, Frame, OptionMenu
 import os
 
